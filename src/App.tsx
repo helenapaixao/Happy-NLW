@@ -7,9 +7,21 @@ function App() {
   return (
       <div id="page-landing">
           <div className="content-wrapper">
-              <img src={logoImg} alt="Logo"/>
+              <img src={logoImg} alt="Happy"/>
+              <main>
+                  <h1>Leve a felicidade para o mundo</h1>
+                  <p>Visite orfanatos e mude  o dia de muitas crianças</p>
+
+              </main>
+              <div className="location">
+                  <strong>Campo Grande</strong>
+                  <span>Mato Grosso do Sul</span>
+              </div>
+              <a href="" className="enter-app">
+                
+                  </a>
           </div>
-         <h1>Hello Bitch </h1>
+   
       </div>
  
   );
