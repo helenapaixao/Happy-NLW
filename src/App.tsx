@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/global.css'
 import './styles/pages/landing.css'
+import {FiArrowRight} from 'react-icons/fi'
 import logoImg from './assets/images/Logo.svg';
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
                   <strong>Campo Grande</strong>
                   <span>Mato Grosso do Sul</span>
               </div>
-              <a href="" className="enter-app">
-                
+              <a href="/" className="enter-app">
+        <FiArrowRight size={26} color="rgba(0,0,0.6)" />  
                   </a>
           </div>
    
